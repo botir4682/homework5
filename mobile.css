@@ -1,0 +1,109 @@
+@media screen and (min-width: 1px) and (max-width: 500px) {
+	#container {
+		width: 360px;
+		height: 4000px;
+	}
+
+/*---------- ----------*/
+	
+	#header {
+		height: 120px;
+		display: inline-block;
+	}
+	#header .header-left-right {
+		width: 360px;
+	}
+	#header .header-left-right #header-right #menu {
+		flex-wrap: wrap;
+		margin-top: 0px;
+	}
+
+/*---------- ----------*/
+    
+#contentone {
+	background-size: 200px 200px, 200px 200px, 200px 200px, 1200px 800px;
+	background-position: center center, 0px -20px, 160px -20px, 0px 0px;
+	height: 200px;
+}
+#contentone #minibutton {
+	padding-top: 180px;
+}
+
+/*---------- ----------*/
+
+#contenttwo {
+	height: 90px;
+	display: flex;
+}
+#contenttwo .contenttwo-left-right #contenttwo-left #contenttwo-textone {
+	font-size: 14px;
+} 
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton {
+	width: 170px;
+	height: 50px;
+	margin-left: 0px;
+}
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton #button-left {
+	width: 60px;
+}
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton #button-right #mainbutton-textone {
+	font-size: 8px;
+	padding-left: 8px;
+}
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton #button-right #mainbutton-texttwo {
+	font-size: 12px;
+	padding-left: 8px;
+}
+
+/*---------- ----------*/
+
+#contentthree {
+	height: 1450px;
+	display: block;
+}
+#contentthree .superfour {
+	margin: 10px auto;
+}
+
+/*---------- ----------*/
+
+#contentfour {
+	height: 760px;
+	display: block;
+}
+#contentfour .contentfour-left-right {
+	width: 360px;
+	height: 380px;
+}
+#contentfour .contentfour-left-right #contentfour-left	.contentfour-mini {
+	width: 165px;
+	margin: 10px auto;
+}
+#contentfour .contentfour-left-right #contentfour-right	.contentfour-main {
+	width: 305px;
+	margin: 10px auto;
+}
+/*---------- ----------*/
+
+#footer {
+	height: 80px;
+	display: block;
+}
+#footer .footer-left-right {
+	width: 360px;
+}
+#footer .footer-left-right #footer-left {
+	margin-top: 10px;
+	margin-left: 4px;
+}
+#footer .footer-left-right #footer-left #footertext-one {
+	font-size: 10px;
+}
+#footer .footer-left-right #footer-left #footertext-two {
+	font-size: 10px;
+} 
+#footer .footer-left-right #footer-right #footer-icon {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+}
